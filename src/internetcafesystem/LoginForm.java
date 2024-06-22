@@ -103,7 +103,6 @@ public class LoginForm extends javax.swing.JFrame {
         jLabel4.setText("Cafe Membership Tracker");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 110, 470, 50));
 
-        username.setForeground(new java.awt.Color(255, 255, 255));
         username.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 usernameActionPerformed(evt);
@@ -121,7 +120,6 @@ public class LoginForm extends javax.swing.JFrame {
         jLabel3.setText("Password:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 450, 70, 30));
 
-        password.setForeground(new java.awt.Color(255, 255, 255));
         password.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 passwordActionPerformed(evt);

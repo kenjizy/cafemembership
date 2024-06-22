@@ -69,13 +69,13 @@ public class personalInfo extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(204, 204, 204));
         jLabel2.setText("Username: ");
-        email.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 181, -1, 50));
+        email.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, 50));
         email.add(name, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 97, 236, 30));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(204, 204, 204));
         jLabel12.setText("Email:");
-        email.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 125, 40, 50));
+        email.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 40, 40));
 
         em.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,7 +87,7 @@ public class personalInfo extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(204, 204, 204));
         jLabel11.setText("Name:");
-        email.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(33, 98, 40, 27));
+        email.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 40, 27));
         email.add(id, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 49, 236, 30));
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -98,7 +98,7 @@ public class personalInfo extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(204, 204, 204));
         jLabel14.setText("Password:");
-        email.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(5, 250, -1, -1));
+        email.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, -1, -1));
         email.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 240, 230, 30));
 
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -135,7 +135,7 @@ public class personalInfo extends javax.swing.JFrame {
         jLabel1.setText("ACCOUNT DETAILS");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 370, 360));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 370, 380));
 
         pack();
         setLocationRelativeTo(null);
